@@ -9,7 +9,7 @@ import logo from '@/assets/images/logo.png'
             class="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
         >
           <!-- Logo -->
-          <a class="flex flex-shrink-0 items-center mr-4" href="index.html">
+          <a class="flex flex-shrink-0 items-center mr-4" href="../../../index.html">
             <img class="h-10 w-auto" v-bind:src="logo" alt="Vue Jobs"/>
             <span class="hidden md:block text-white text-2xl font-bold ml-2">
               Vue Jobs
@@ -19,7 +19,7 @@ import logo from '@/assets/images/logo.png'
           <div class="md:ml-auto">
             <div class="flex space-x-2">
               <a
-                  href="index.html"
+                  href="../../../index.html"
                   class="text-white bg-green-900 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
               >Home</a
               >
