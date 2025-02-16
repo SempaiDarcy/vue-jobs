@@ -1,5 +1,4 @@
 <script setup>
-import jobData from '@/jobs.json'
 import {ref, defineProps} from 'vue'
 import {RouterLink} from "vue-router";
 import JobListing from "@/components/JobListings/JobListing/JobListing.vue";
