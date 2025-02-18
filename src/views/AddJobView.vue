@@ -1,5 +1,7 @@
 <script setup>
 import {reactive} from "vue";
+import axios from "axios";
+import router from "@/router/index.js";
 
 const form = reactive({
   type: 'Full-Time',
@@ -29,6 +31,12 @@ const handleSubmit = async () => {
     }
   }
   console.log(newJob)
+  try {
+    const res = await axios.post('/api/jobs', newJob);
+    router.push(`/jobs/${res.data.id}`);
+  } catch (error) {
+    console.error('Error fetching job', error)
+  }
 };
 </script>
 
@@ -65,7 +73,7 @@ const handleSubmit = async () => {
             >
             <input
                 type="text"
-                v-model="form.company.name"
+                v-model="form.title"
                 id="name"
                 name="name"
                 class="border rounded w-full py-2 px-3 mb-2"
