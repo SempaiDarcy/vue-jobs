@@ -83,62 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "e12d",
-      "title": "",
-      "type": "Full-Time",
-      "location": "Самара",
-      "description": "Tenzoe",
-      "salary": "$50K - $60K",
-      "company": {
-        "name": "LOLO",
-        "description": "DODO",
-        "contactEmail": "dasdasd@mail.ru",
-        "contactPhone": "999"
-      }
-    },
-    {
-      "id": "a731",
-      "title": "",
-      "type": "Full-Time",
-      "location": "Уральск",
-      "description": "dsad",
-      "salary": "$50K - $60K",
-      "company": {
-        "name": "Акбар",
-        "description": "dasdadassd",
-        "contactEmail": "dasdasd@mail.ru",
-        "contactPhone": "dasdsad"
-      }
-    },
-    {
-      "id": "ccf0",
-      "title": "",
-      "type": "Full-Time",
-      "location": "Самара",
-      "description": "dasdasd",
-      "salary": "$50K - $60K",
-      "company": {
-        "name": "Akbar",
-        "description": "dsadad",
-        "contactEmail": "dasdasd@mail.ru",
-        "contactPhone": "dasd"
-      }
-    },
-    {
-      "id": "1d79",
-      "title": "dsadsad",
-      "type": "Full-Time",
-      "location": "Самара",
-      "description": "dasd",
-      "salary": "$50K - $60K",
-      "company": {
-        "name": "dasd",
-        "description": "dasdad",
-        "contactEmail": "dasdasd@mail.ru",
-        "contactPhone": "dasd"
-      }
     }
   ]
 }
